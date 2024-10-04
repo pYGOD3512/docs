@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Alle-AI",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/alle-ai-full-logo-black.svg",
+    "light": "/logo/alle-ai-full-logo-white.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -18,17 +18,21 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:contact@alle-ai.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Try Alle-AI API",
+    "url": "api-reference"
   },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Home",
+      "url": "home"
     }
   ],
   "anchors": [
@@ -84,8 +88,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com",
+    "github": "https://github.com/pYGOD3512/docs",
+    "linkedin": "https://www.linkedin.com/company/alle-ai"
   }
 }

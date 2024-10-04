@@ -98,14 +98,17 @@ Example: `mintlify`
 
 <ResponseField name="topbarCtaButton" type="Call to Action">
   <Expandable title="Topbar Call to Action">
-    <ResponseField name="type" type={'"link" or "github"'} default="link">
+
+    <ResponseField name="type" type={'"link" or "github"'} default="github">
     Link shows a button. GitHub shows the repo information at the url provided including the number of GitHub stars.
     </ResponseField>
+
     <ResponseField name="url" type="string">
     If `link`: What the button links to.
     
     If `github`: Link to the repository to load GitHub information from.
     </ResponseField>
+
     <ResponseField name="name" type="string">
     Text inside the button. Only required if `type` is a `link`.
     </ResponseField>
